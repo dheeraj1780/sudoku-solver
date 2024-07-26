@@ -64,7 +64,7 @@ def solve_sudoku(boxes):
     solve()
 
 def print_sudoku(boxes):
-    for i in range(0,,3):
+    for i in range(0,3):
         for j in range(3):
             print(boxes[i].box[j]+boxes[i+1].box[j]+boxes[i+2].box[j])
 
@@ -82,3 +82,5 @@ box9 = Box([[4, 7, 6], [0, 0, 0], [0, 0, 0]], 9)
 boxes = [box1, box2, box3, box4, box5, box6, box7, box8, box9]
 solve_sudoku(boxes)
 print_sudoku(boxes)
+
+#folder poo deii 
