@@ -1,4 +1,3 @@
-Here's a README.md for your Sudoku Solver project:
 
 ---
 
